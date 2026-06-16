@@ -25,6 +25,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Quick Start: quickstart.md
   - Concepts: concepts.md
   - Data Model:
     - Overview: data_model/overview.md
