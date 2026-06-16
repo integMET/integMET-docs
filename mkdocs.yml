@@ -1,6 +1,6 @@
 site_name: integMET Documentation
 site_description: Documentation for the integMET integrated metabolomics database
-site_url: https://integmet.github.io/integmet-docs/
+site_url: https://integmet.github.io/integMET-docs/
 
 theme:
   name: material
