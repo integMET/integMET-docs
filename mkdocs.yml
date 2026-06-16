@@ -1,0 +1,35 @@
+site_name: integMET Documentation
+site_description: Documentation for the integMET integrated metabolomics database
+site_url: https://integmet.github.io/integmet-docs/
+
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: teal
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Concepts: concepts.md
+  - Data Model:
+    - Overview: data_model/overview.md
+    - Study: data_model/study.md
+    - Differential Profile: data_model/diffprof.md
+    - Metabolite: data_model/metabolite.md
+  - Tutorial:
+    - Network Visualization: tutorial/network_visualization.md
