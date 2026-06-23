@@ -83,7 +83,3 @@ When you view a Metabolite, you'll see:
 - Read [Concepts](concepts.md) to understand Differential Profiles in depth
 - Explore the [Data Model](data_model/overview.md) to understand how data is organized
 - Learn about [Network Visualization](tutorial/network_visualization.md) to find similar DiffProfs
-
----
-
-TODO: Add screenshots of the integMET interface
