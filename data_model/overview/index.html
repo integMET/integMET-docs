@@ -805,10 +805,7 @@
 <h1 id="data-model-overview">Data Model Overview</h1>
 <p>integMET organizes data into three core entities: <strong>Study</strong>, <strong>Differential Profile (DiffProf)</strong>, and <strong>Metabolite</strong>.</p>
 <h2 id="entity-relationships">Entity Relationships</h2>
-<div class="highlight"><pre><span></span><code>Study (e.g., MTBLS10)
-└── DiffProf (e.g., Control_0h vs Wounding_72h)
-    └── Metabolite (e.g., nicotine — ratio=0.62, down)
-</code></pre></div>
+<p><img alt="Entity Relationships" src="../../images/layers.png" /></p>
 <ul>
 <li>One <strong>Study</strong> contains one or more <strong>DiffProfs</strong> (biological contrasts)</li>
 <li>One <strong>DiffProf</strong> captures a biological event with its metabolite changes</li>
