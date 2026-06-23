@@ -12,7 +12,7 @@ This guide helps you get started with integMET in a few minutes.
 
 ### Workflow A: Start from a Condition
 
-![Workflow from DiffProf](images/workflow_from_diffprof.png)
+<img src="images/workflow_from_diffprof.png" width="60%">
 
 *"I'm interested in a disease or condition — what metabolites change?"*
 
@@ -25,7 +25,7 @@ This guide helps you get started with integMET in a few minutes.
 
 ### Workflow B: Start from a Metabolite
 
-![Workflow from Metabolite](images/workflow_from_metabolite.png)
+<img src="images/workflow_from_metabolite.png" width="60%">
 
 *"I have a metabolite of interest — in which biological event/condition does it change?"*
 
