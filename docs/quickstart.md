@@ -4,9 +4,9 @@ This guide helps you get started with integMET in a few minutes.
 
 ## What You Can Do
 
-- **Browse Studies** — Find metabolomics studies by condition, disease, or species
-- **Explore Differential Profiles** — See how metabolites change between biological conditions
+- **Explore Differential Profiles** — Browse biological comparisons (e.g., control vs. disease) together with metabolic changes
 - **Find Metabolites** — Search for specific metabolites and trace their changes across studies
+- **Browse Studies** — Find metabolomics studies by condition, disease, or species
 
 ## Navigation Overview
 
