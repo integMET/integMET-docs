@@ -8,45 +8,41 @@ This guide helps you get started with integMET in a few minutes.
 - **Find Metabolites** — Search for specific metabolites and trace their changes across studies
 - **Browse Studies** — Find metabolomics studies by condition, disease, or species
 
-## Navigation Overview
-
-```
-Home
-├── Studies → click a study → see its DiffProfs
-├── Diff Profiles → click a DiffProf → see metabolite changes
-└── Metabolites → click a metabolite → see where it changes
-```
-
 ## Example Workflows
 
 ### Workflow A: Start from a Condition
 
+![Workflow from DiffProf](images/workflow_from_diffprof.png)
+
 *"I'm interested in a disease or condition — what metabolites change?"*
 
-1. Go to **Studies**
-2. Browse or search for studies related to your condition
-3. Click a study to see its details
-4. View the **Differential Profiles** from that study
-5. Examine the **Top Hits** — metabolites with significant changes
+*"I'm interested in the effect of a drug — what metabolites change?"*
+
+1. Go to **Diff Profiles**
+2. Browse or search for DiffProfs to your interest.
+3. Click a DiffProf to see its details
+4. Examine the **Top Hits** — metabolites with significant changes
 
 ### Workflow B: Start from a Metabolite
 
-*"I have a metabolite of interest — where does it change?"*
+![Workflow from Metabolite](images/workflow_from_metabolite.png)
+
+*"I have a metabolite of interest — in which biological event/condition does it change?"*
 
 1. Go to **Metabolites**
 2. Find your metabolite by name or identifier
 3. Click to view its detail page
-4. See **Studies Observed** — where this metabolite was detected
-5. See **DiffProfs with Variation** — where this metabolite changed significantly
+4. See **Observed in differential profiles** — where this metabolite changed significantly.
 
-### Workflow C: Find Similar Phenomena
+### Workflow C: Start from a Study
 
-*"I found an interesting DiffProf — are there similar ones?"*
+*"I'm interested in this study — what kind of metabolic change can be seen?"*
 
-1. Go to **Diff Profiles**
-2. Find a DiffProf of interest
-3. Note the metabolites that change
-4. Use the network visualization to find DiffProfs with similar metabolic signatures
+1. Go to **Studies**
+2. Find a study of interest
+3. Click to view its detail page
+4. See **Differential profiles** — the list of DiffProfs derived from this study data
+5. Click a DiffProf to see its metabolic changes
 
 ## Understanding the Data
 
