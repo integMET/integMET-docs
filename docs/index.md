@@ -6,7 +6,7 @@ Welcome to the documentation for **integMET**, an integrated metabolomics databa
 
 integMET is a database that integrates metabolomics data from public repositories and makes them comparable across studies.
 
-The key innovation is the **Differential Profile (DiffProf)** — a standardized representation of metabolite changes between two biological conditions. By converting diverse metabolomics studies into DiffProfs, integMET enables cross-study discovery and reuse.
+The key feature is the **Differential Profile (DiffProf)** — a standardized representation of metabolite changes between two biological conditions. By converting diverse metabolomics studies into DiffProfs, integMET enables cross-study discovery and reuse.
 
 ## Get Started
 
