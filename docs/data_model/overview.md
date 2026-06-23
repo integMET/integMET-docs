@@ -4,11 +4,7 @@ integMET organizes data into three core entities: **Study**, **Differential Prof
 
 ## Entity Relationships
 
-```
-Study (e.g., MTBLS10)
-└── DiffProf (e.g., Control_0h vs Wounding_72h)
-    └── Metabolite (e.g., nicotine — ratio=0.62, down)
-```
+![Entity Relationships](../images/layers.png)
 
 - One **Study** contains one or more **DiffProfs** (biological contrasts)
 - One **DiffProf** captures a biological event with its metabolite changes
