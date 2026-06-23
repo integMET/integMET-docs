@@ -308,17 +308,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#navigation-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Navigation Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#example-workflows" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -353,10 +342,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#workflow-c-find-similar-phenomena" class="md-nav__link">
+  <a href="#workflow-c-start-from-a-study" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Workflow C: Find Similar Phenomena
+        Workflow C: Start from a Study
       
     </span>
   </a>
@@ -764,17 +753,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#navigation-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Navigation Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#example-workflows" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -809,10 +787,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#workflow-c-find-similar-phenomena" class="md-nav__link">
+  <a href="#workflow-c-start-from-a-study" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Workflow C: Find Similar Phenomena
+        Workflow C: Start from a Study
       
     </span>
   </a>
@@ -910,38 +888,34 @@
 <li><strong>Find Metabolites</strong> — Search for specific metabolites and trace their changes across studies</li>
 <li><strong>Browse Studies</strong> — Find metabolomics studies by condition, disease, or species</li>
 </ul>
-<h2 id="navigation-overview">Navigation Overview</h2>
-<div class="highlight"><pre><span></span><code>Home
-├── Studies → click a study → see its DiffProfs
-├── Diff Profiles → click a DiffProf → see metabolite changes
-└── Metabolites → click a metabolite → see where it changes
-</code></pre></div>
 <h2 id="example-workflows">Example Workflows</h2>
 <h3 id="workflow-a-start-from-a-condition">Workflow A: Start from a Condition</h3>
+<p><img alt="Workflow from DiffProf" src="../images/workflow_from_diffprof.png" /></p>
 <p><em>"I'm interested in a disease or condition — what metabolites change?"</em></p>
+<p><em>"I'm interested in the effect of a drug — what metabolites change?"</em></p>
 <ol>
-<li>Go to <strong>Studies</strong></li>
-<li>Browse or search for studies related to your condition</li>
-<li>Click a study to see its details</li>
-<li>View the <strong>Differential Profiles</strong> from that study</li>
+<li>Go to <strong>Diff Profiles</strong></li>
+<li>Browse or search for DiffProfs to your interest.</li>
+<li>Click a DiffProf to see its details</li>
 <li>Examine the <strong>Top Hits</strong> — metabolites with significant changes</li>
 </ol>
 <h3 id="workflow-b-start-from-a-metabolite">Workflow B: Start from a Metabolite</h3>
-<p><em>"I have a metabolite of interest — where does it change?"</em></p>
+<p><img alt="Workflow from Metabolite" src="../images/workflow_from_metabolite.png" /></p>
+<p><em>"I have a metabolite of interest — in which biological event/condition does it change?"</em></p>
 <ol>
 <li>Go to <strong>Metabolites</strong></li>
 <li>Find your metabolite by name or identifier</li>
 <li>Click to view its detail page</li>
-<li>See <strong>Studies Observed</strong> — where this metabolite was detected</li>
-<li>See <strong>DiffProfs with Variation</strong> — where this metabolite changed significantly</li>
+<li>See <strong>Observed in differential profiles</strong> — where this metabolite changed significantly.</li>
 </ol>
-<h3 id="workflow-c-find-similar-phenomena">Workflow C: Find Similar Phenomena</h3>
-<p><em>"I found an interesting DiffProf — are there similar ones?"</em></p>
+<h3 id="workflow-c-start-from-a-study">Workflow C: Start from a Study</h3>
+<p><em>"I'm interested in this study — what kind of metabolic change can be seen?"</em></p>
 <ol>
-<li>Go to <strong>Diff Profiles</strong></li>
-<li>Find a DiffProf of interest</li>
-<li>Note the metabolites that change</li>
-<li>Use the network visualization to find DiffProfs with similar metabolic signatures</li>
+<li>Go to <strong>Studies</strong></li>
+<li>Find a study of interest</li>
+<li>Click to view its detail page</li>
+<li>See <strong>Differential profiles</strong> — the list of DiffProfs derived from this study data</li>
+<li>Click a DiffProf to see its metabolic changes</li>
 </ol>
 <h2 id="understanding-the-data">Understanding the Data</h2>
 <h3 id="reading-a-diffprof">Reading a DiffProf</h3>
