@@ -27,6 +27,8 @@ The basic workflow is:
 
 ## Study-Level Network
 
+![Study-Level Network](integmet_study_graph.png)
+
 The first network provides an overview of Studies associated by integMET.
 
 To build this Study-level network, integMET uses representative DiffProfs extracted from each Study. DiffProfs with high importance are selected using a Large Language Model (LLM), and relationships among those selected DiffProfs are used to construct the Study-level graph.
@@ -69,6 +71,8 @@ To begin detailed exploration, click a node in the Study-level network.
 After a Study node is selected, its Study ID appears in the **Selected Study ID** field. The selected Study is then used as the starting point for generating the related DiffProf network.
 
 ## DiffProf Network
+
+![diffprof_network](integmet_diffprof_network.png)
 
 After selecting a Study, integMET displays a DiffProf-level network associated with that Study.
 
@@ -136,9 +140,7 @@ The application keeps the two most recently selected nodes, allowing users to co
 
 To reset the selected nodes, click:
 
-```text
 clear selected node IDs
-```
 
 ## Comparing Two DiffProfs
 
@@ -159,6 +161,8 @@ The comparison view may include:
 This view helps users interpret why two DiffProfs are connected in the network.
 
 ## Metadata Network
+
+![Metadata_Network](integmet_metadata_network.png)
 
 After two valid Study IDs are selected, integMET displays an integrated Metadata Network.
 
