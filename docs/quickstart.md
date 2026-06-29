@@ -12,16 +12,21 @@ This guide helps you get started with integMET in a few minutes.
 
 ### Workflow A: Start from a Condition
 
-<img src="../images/workflow_from_diffprof.png" width="60%">
-
 *"I'm interested in a disease or condition — what metabolites change?"*
 
 *"I'm interested in the effect of a drug — what metabolites change?"*
 
-1. Go to **Diff Profiles**
-2. Browse or search for DiffProfs to your interest.
-3. Click a DiffProf to see its details
-4. Examine the **Top Hits** — metabolites with significant changes
+**1. Go to Diff Profiles**
+
+<img src="../images/workflow_from_diffprof_s1.png" width="60%">
+
+**2. Browse or search for DiffProfs to your interest**
+
+<img src="../images/workflow_from_diffprof_s2.png" width="60%">
+
+**3-4. Click a DiffProf to see its details and Top Hits**
+
+<img src="../images/workflow_from_diffprof_s3.png" width="60%">
 
 ### Workflow B: Start from a Metabolite
 
