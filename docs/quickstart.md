@@ -30,14 +30,19 @@ This guide helps you get started with integMET in a few minutes.
 
 ### Workflow B: Start from a Metabolite
 
-<img src="../images/workflow_from_metabolite.png" width="60%">
-
 *"I have a metabolite of interest — in which biological event/condition does it change?"*
 
-1. Go to **Metabolites**
-2. Find your metabolite by name or identifier
-3. Click to view its detail page
-4. See **Observed in differential profiles** — where this metabolite changed significantly.
+**1. Go to Metabolites**
+
+<img src="../images/workflow_from_metabolite_s1.png" width="60%">
+
+**2. Find your metabolite by name or identifier**
+
+<img src="../images/workflow_from_metabolite_s2.png" width="60%">
+
+**3-4. Click to view details and see Observed in differential profiles**
+
+<img src="../images/workflow_from_metabolite_s3.png" width="60%">
 
 ### Workflow C: Start from a Study
 
