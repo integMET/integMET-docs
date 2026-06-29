@@ -28,6 +28,8 @@ This guide helps you get started with integMET in a few minutes.
 
 <img src="../images/workflow_from_diffprof_s3.png" width="60%">
 
+---
+
 ### Workflow B: Start from a Metabolite
 
 *"I have a metabolite of interest — in which biological event/condition does it change?"*
@@ -44,6 +46,8 @@ This guide helps you get started with integMET in a few minutes.
 
 <img src="../images/workflow_from_metabolite_s3.png" width="60%">
 
+---
+
 ### Workflow C: Start from a Study
 
 *"I'm interested in this study — what kind of metabolic change can be seen?"*
@@ -53,6 +57,8 @@ This guide helps you get started with integMET in a few minutes.
 3. Click to view its detail page
 4. See **Differential profiles** — the list of DiffProfs derived from this study data
 5. Click a DiffProf to see its metabolic changes
+
+---
 
 ### Workflow D: Explore Network Visualization
 
