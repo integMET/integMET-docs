@@ -60,17 +60,17 @@ This guide helps you get started with integMET in a few minutes.
 
 integMET provides an interactive network where DiffProfs with similar metabolite-change patterns are connected. This helps discover related biological conditions across different studies.
 
-**1. Go to Graph Visualization and select a Study**
+**1. Go to Graph Visualization**
 
-<img src="../tutorial/integmet_study_graph.png" width="60%">
+<img src="../images/workflow_network_s1.png" width="60%">
 
-**2. Explore the DiffProf network connected to that Study**
+**2. Browse the Study-level network with filters**
 
-<img src="../tutorial/integmet_diffprof_network.png" width="60%">
+<img src="../images/workflow_network_s2.png" width="60%">
 
-**3. Compare metadata between connected DiffProfs**
+**3. Select a Study to see its DiffProf network**
 
-<img src="../tutorial/integmet_metadata_network.png" width="60%">
+<img src="../images/workflow_network_s3.png" width="60%">
 
 For detailed instructions, see the [Network Visualization Tutorial](tutorial/network_visualization.md).
 
