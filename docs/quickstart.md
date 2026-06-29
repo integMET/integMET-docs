@@ -54,6 +54,26 @@ This guide helps you get started with integMET in a few minutes.
 4. See **Differential profiles** — the list of DiffProfs derived from this study data
 5. Click a DiffProf to see its metabolic changes
 
+### Workflow D: Explore Network Visualization
+
+*"I want to find DiffProfs with similar metabolite changes"*
+
+integMET provides an interactive network where DiffProfs with similar metabolite-change patterns are connected. This helps discover related biological conditions across different studies.
+
+**1. Go to Graph Visualization and select a Study**
+
+<img src="../tutorial/integmet_study_graph.png" width="60%">
+
+**2. Explore the DiffProf network connected to that Study**
+
+<img src="../tutorial/integmet_diffprof_network.png" width="60%">
+
+**3. Compare metadata between connected DiffProfs**
+
+<img src="../tutorial/integmet_metadata_network.png" width="60%">
+
+For detailed instructions, see the [Network Visualization Tutorial](tutorial/network_visualization.md).
+
 ## Understanding the Data
 
 ### Reading a DiffProf
