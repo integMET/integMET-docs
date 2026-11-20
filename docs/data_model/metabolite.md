@@ -14,7 +14,7 @@ This allows you to trace a metabolite back to its biological contexts — discov
 
 ## Handling Duplicate Metabolite Entries
 
-If the same compound appears in multiple entries within a single assay of a source Study, all entries for that compound in that assay are excluded from integMET. This rule is applied independently to each assay.
+If multiple entries within a single assay of a source Study share the same InChIKey, all of those entries are excluded from integMET. This rule is applied independently to each assay.
 
 ## Metabolite Fields
 
